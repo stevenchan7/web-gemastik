@@ -1,13 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Inter } from 'next/font/google';
 import Layout from '@/layout/Layout';
+import styles from '@/styles/globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+function commonLayout(page) {
+  return <Layout>{page}</Layout>;
+}
 
 export default function App({ Component, pageProps }) {
-  return (
-    <Layout className={inter.className}>
-      <Component {...pageProps} />;
-    </Layout>
-  );
+  // Use layout defined at page level, if not, use default layout
+  const getLayout = Component.getLayout || ((page) => <Layout>{page}</Layout>);
+
+  return getLayout(<Component {...pageProps} />);
 }

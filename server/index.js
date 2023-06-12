@@ -28,7 +28,7 @@ app.use(
 );
 
 // API routes
-app.get('/app', verifyToken, (req, res) => {
+app.get('/app/:id', verifyToken, (req, res) => {
   res.send('This is app');
 });
 app.post('/app/login', signIn);

@@ -32,7 +32,9 @@ export default function Layout({ children }) {
           </div>
         </Container>
       </Navbar>
-      <Container fluid className='d-flex justify-content-center align-items-center'></Container>
+      <Container fluid className='d-flex justify-content-center align-items-center'>
+        {children}
+      </Container>
       {/* Footer */}
       <div className='d-inline-block' style={{ backgroundColor: '#F8DAC4', paddingInline: '5rem' }}>
         <Container fluid className='mt-5 mb-5'>

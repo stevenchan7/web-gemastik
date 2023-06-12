@@ -12,8 +12,14 @@ const User = db.define('user', {
     type: DataTypes.STRING,
     allowNull: false,
     validate: {
-      len: [5],
-      is: /^[a-zA-z0-9]\w+$/,
+      len: {
+        args: [5],
+        msg: 'require 5 characters minimum',
+      },
+      is: {
+        args: /^[a-zA-z0-9]\w+$/,
+        msg: 'must start with letter or number',
+      },
     },
   },
   email: {
