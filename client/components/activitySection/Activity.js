@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import ActivityCard from './ActivityCard';
-import activities from '@/data/activity/activity.json';
+import activities from '@/data/home/activity.json';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
