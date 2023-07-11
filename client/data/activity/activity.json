@@ -1,27 +1,94 @@
-[
-  {
-    "id": 1,
-    "title": "Beach Clean Up",
-    "desc": "Kegiatan bersih-bersih pantai, mengumpulkan sampah-sampah yang mengotori pantai. Kegiatan ini bertujuan untuk membersihkan ekosistem pantai yang tercemari sampah hasil kegiatan atau aktivitas manusia di pantai"
-  },
-  {
-    "id": 2,
-    "title": "Mountain Clean Up",
-    "desc": "Kegiatan bersih-bersih gunung, mengumpulkan sampah-sampah yang mengotori sekitar gunung. Kegiatan ini bertujuan untuk membersihkan lingkungan di area bukit dan gunung yang tercemar sampah kegiatan-kegiatan terutama camping di area gunung."
-  },
-  {
-    "id": 3,
-    "title": "River Clean Up",
-    "desc": "Kegiatan membersihkan sungai dari berbagai limbah yang ada baik itu organik ataupun anorganik, agar ekosistem sungai terjaga kebersihanya sehingga manusia dapat memanfaatkan air maupun kehidupan di dalamnya"
-  },
-  {
-    "id": 4,
-    "title": "Mangroves Planting",
-    "desc": "Kegiatan penanaman pohon mangrove di kawasan yang gersang, yang bertujuan untuk penghijauan dari suatu ekosistem yang ada sehingga daerah pesisir dapat terlindung terutama dari abrasi."
-  },
-  {
-    "id": 5,
-    "title": "Trees Planting",
-    "desc": "kegiatan menanam pohon di daerah yang terkena deforestasi dan lahan terbuka, kegiatan dilakukan agar kawasan hutan dan ekosistem yang ada dapat menjadi hijau kembali"
-  }
-]
+{
+  "activities": [
+    {
+      "id": 1,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 2,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 3,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 4,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 5,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 6,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 7,
+      "date": "7",
+      "month": "December",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Bersih Sanur",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 8,
+      "date": "7",
+      "month": "December",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Bersih Sanur",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 9,
+      "date": "7",
+      "month": "December",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Bersih Sanur",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    }
+  ]
+}

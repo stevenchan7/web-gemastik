@@ -1,0 +1,29 @@
+.formContainer {
+  max-width: 500px;
+  height: 600px;
+  background-color: #FAEADE;
+  border: 3px solid #D6925C;
+  border-radius: 32px;
+}
+
+.formContainer input {
+  background-color: #FFF6EC;
+}
+
+.formContainer label {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.formContainer button {
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #D6925C;
+  border: none;
+}
+
+.formContainer input::placeholder {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}
