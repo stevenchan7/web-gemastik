@@ -55,7 +55,7 @@ export default function Layout({ children }) {
       </div>
 
 
-      
+
       <div class="activities" style={{ backgroundColor: '#FAEADE', height: '842px' }}>
         <Container fluid className='d-flex justify-content-center align-items-center'>
           {children}
@@ -219,8 +219,8 @@ export default function Layout({ children }) {
           </Row>
         </Row>
       </div>
-      
-      
+
+
 
       <div class="review" style={{ backgroundColor: '#FAEADE', height: '625px' }}>
         <Row className={styles.reviewBack} >
@@ -232,7 +232,7 @@ export default function Layout({ children }) {
             Kata - kata relawan tentang kami
           </text2>
           <Row className={styles.backCard}>
-          <Col className={styles.cardReview}>
+            <Col className={styles.cardReview}>
               <Container style={{ background: '#EB7C6D' }} className={styles.profileReview}></Container>
               <Container style={{ width: '325px', height: '250px', background: '#FFF6EC', borderRadius: '12px' }}>
                 <text style={{ fontWeight: '700' }} className={styles.textReview}>
@@ -241,7 +241,7 @@ export default function Layout({ children }) {
                 <text className={styles.textReview}>
                   Mahasiswa
                 </text>
-                <Image className={styles.imageReview}  src='/gapReviewCard.png' width={'57px'} height={'57px'} />
+                <Image className={styles.imageReview} src='/gapReviewCard.png' width={'57px'} height={'57px'} />
                 <text className={styles.text2Review} >
                   Senang rasanya bisa bergabung menjadi salah satu relawan di kegiatan-kegiatan seperti ini, rasanya seperti kita menjadi bagian penting dari perjalanan menuju bumi yan lebih baik.
                 </text>
@@ -256,9 +256,9 @@ export default function Layout({ children }) {
                 <text className={styles.textReview}>
                   Mahasiswa
                 </text>
-                <Image className={styles.imageReview}  src='/gapReviewCard.png' width={'57px'} height={'57px'} />
+                <Image className={styles.imageReview} src='/gapReviewCard.png' width={'57px'} height={'57px'} />
                 <text className={styles.text2Review} >
-                Pengalaman pertama ku menjadi relawan di Peduli Bumi engga akan pernah terlupa. Kegiatannya seru dan asyik banget, dan aku bisa bertemu dengan teman-teman baru dari berbagai tempat
+                  Pengalaman pertama ku menjadi relawan di Peduli Bumi engga akan pernah terlupa. Kegiatannya seru dan asyik banget, dan aku bisa bertemu dengan teman-teman baru dari berbagai tempat
                 </text>
               </Container>
             </Col>
@@ -271,9 +271,9 @@ export default function Layout({ children }) {
                 <text className={styles.textReview}>
                   Mahasiswa
                 </text>
-                <Image className={styles.imageReview}  src='/gapReviewCard.png' width={'57px'} height={'57px'} />
+                <Image className={styles.imageReview} src='/gapReviewCard.png' width={'57px'} height={'57px'} />
                 <text className={styles.text2Review} >
-                Sumpah kalian harus banget coba jadi relawan di Peduli Bumi. Awalnya aku juga skeptis banget sama kegiatan-kegiatan kayak gini, tapi setelah diajakin temen dan dijalanin ternyata kegiatannya seru banget
+                  Sumpah kalian harus banget coba jadi relawan di Peduli Bumi. Awalnya aku juga skeptis banget sama kegiatan-kegiatan kayak gini, tapi setelah diajakin temen dan dijalanin ternyata kegiatannya seru banget
                 </text>
               </Container>
             </Col>
