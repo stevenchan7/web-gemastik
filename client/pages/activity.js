@@ -6,7 +6,7 @@ import ReactPaginate from 'react-paginate';
 import Popup from '@/components/activityPage/Popup';
 import styles from '@/styles/Activity.module.css';
 
-export default function activityPage({ activities }) {
+export default function ActivityPage({ activities }) {
   // PAGINATION
   const itemsPerPage = 6;
   const [itemOffSet, setItemOffset] = useState(0);
