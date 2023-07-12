@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Layout({ children }) {
   return (
-    <div className={inter.className}>
+    <div className={inter.className} style={{ backgroundColor: '#FFF6EC' }}>
       {/* Navbar */}
       <Navbar expand='md' className={styles.navbarContainer}>
         <Container fluid>
@@ -22,19 +22,21 @@ export default function Layout({ children }) {
               <Nav.Link href='/submission'>Pengajuan</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <div className='d-flex justify-content-center align-items-center'>
+          <div className='d-flex justify-content-center alidgn-items-center'>
             <Nav.Link href='/signin' className='me-3'>
-              Sign In
+              Masuk
             </Nav.Link>
             <div className={styles.navButton}>
-              <Nav.Link href='/signup'>Sign Up</Nav.Link>
+              <Nav.Link href='/signup'>Daftar</Nav.Link>
             </div>
           </div>
         </Container>
       </Navbar>
-      <Container fluid className='d-flex justify-content-center align-items-center'>
+
+      <Container fluid className='d-flex justify-content-center align-items-center p-0'>
         {children}
       </Container>
+
       {/* Footer */}
       <div className='d-inline-block' style={{ backgroundColor: '#F8DAC4', paddingInline: '5rem' }}>
         <Container fluid className='mt-5 mb-5'>
@@ -72,7 +74,7 @@ export default function Layout({ children }) {
             </Col>
           </Row>
           <div className='text-center pt-3' style={{ borderTop: '2px solid black' }}>
-            <p>
+            <p style={{ fontWeight: '600' }}>
               Copyright © 2023 Peduli Bumi All Rights Reserved. Website Created by DigendongKating
               Team
             </p>
