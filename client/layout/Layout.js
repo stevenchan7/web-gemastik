@@ -22,7 +22,7 @@ export default function Layout({ children }) {
               <Nav.Link href='/submission'>Pengajuan</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <div className='d-flex justify-content-center alidgn-items-center'>
+          <div className='d-flex justify-content-center align-items-center'>
             <Nav.Link href='/signin' className='me-3'>
               Masuk
             </Nav.Link>
