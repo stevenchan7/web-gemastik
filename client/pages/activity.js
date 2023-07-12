@@ -60,7 +60,7 @@ export default function ActivityPage({ activities }) {
               transform: 'translate(-50%, -50%)',
             }}
           >
-            <h1>
+            <h1 style={{ color: '#ffffff', fontWeight: '700', lineHeight: '1.5' }}>
               Do It Now
               <br />
               For a Better

@@ -1,0 +1,34 @@
+{
+  "activities4u": [
+    {
+      "id": 1,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 2,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    },
+    {
+      "id": 3,
+      "date": "11",
+      "month": "June",
+      "year": "2023",
+      "activity": "membersihkan pantai",
+      "name": "Kuta Beach Clean Up",
+      "location": "Pantai Kuta, Badung, Bali",
+      "community": "Pecinta Senja"
+    }
+  ]
+}
