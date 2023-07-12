@@ -33,12 +33,13 @@ export default function Layout({ children }) {
         </Container>
       </Navbar>
 
-      <Container fluid className='d-flex justify-content-center align-items-center p-0'>
-        {children}
-      </Container>
+      {children}
 
       {/* Footer */}
-      <div className='d-inline-block' style={{ backgroundColor: '#F8DAC4', paddingInline: '5rem' }}>
+      <div
+        className='d-inline-block'
+        style={{ backgroundColor: '#F8DAC4', paddingInline: '5rem', width: '100%' }}
+      >
         <Container fluid className='mt-5 mb-5'>
           <Row className='justify-content-center align-items-center pb-3'>
             <Col lg={9}>

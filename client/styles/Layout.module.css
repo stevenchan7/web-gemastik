@@ -53,47 +53,21 @@
 }
 
 /* Hero */
-.heroContent {
-  background-color: #FFF6EC;
-  height: 445px;
-  width: 88%;
-  left: 80px;
-  top: 100px;
-}
-
 .captionHero {
-  position: relative;
-  top: 115px;
   font-weight: 900;
   font-size: 42px;
   color: #242C48;
-  line-height: 51px;
-}
-
-.caption2Hero {
-  position: relative;
-  top: 112px;
-  width: 535px;
-  font-weight: 900;
-  font-size: 42px;
-  color: #7AC241;
-  line-height: 51px;
+  margin-bottom: 45px;
 }
 
 .descHero {
-  position: relative;
-  top: 150px;
-  width: 535px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
-  color: rgba(36, 44, 72, 0.6);
+  margin-bottom: 45px;
 }
 
 .buttonHero {
-  position: relative;
-  top: 190px;
   width: 138px;
   height: 44px;
   border-radius: 100px;
@@ -101,81 +75,41 @@
   color: #FFF6EC;
   font-weight: 700;
   font-size: 18px;
-  line-height: 22px;
-  border-style: none;
+  border: none;
 }
 
 .buttonHero:hover {
+  background-color: #7AC241;
+  color: #FFF6EC;
+  border: none;
   opacity: 80%;
-}
-
-.backHero {
-  position: absolute;
-  top: 205px;
-  right: 7%;
 }
 
 .fotoHero {
   position: absolute;
-  top: 230px;
-  right: 9%;
-  filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.25));
-  border-radius: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.FUContent {
-  position: relative;
-  margin-top: 70px;
-  margin-left: 6%;
-  margin-right: 6%;
+@media (max-width: 992px) {
+  .heroTextContainer {
+    text-align: center;
+  }
+  .heroImgContainer {
+    display: none;
+  }
 }
 
-.textFU {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 42px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.text2FU {
-  font-weight: 500;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.boxFU {
-  width: 380px;
-  height: 230px;
-  position: relative;
-  margin-right: 25px;
-  margin-left: 25px;
-  margin-top: 50px;
-}
-
-.imageBox {
-  width: 100px;
-  height: 80px;
-  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
+/* Section Benefit  */
 .textBox {
   font-weight: 700;
   font-size: 18px;
-  position: relative;
 }
 
 .text2Box {
-  width: 355px;
   font-weight: 400;
   font-size: 12px;
-  position: relative;
 }
 
 .cardFU {
