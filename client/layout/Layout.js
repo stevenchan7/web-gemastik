@@ -18,7 +18,7 @@ export default function Layout({ children }) {
             </Navbar.Brand>
             <Nav className='me-auto mb-3 mb-md-0'>
               <Nav.Link href='/'>Beranda</Nav.Link>
-              <Nav.Link href='/activities'>Aktivitas</Nav.Link>
+              <Nav.Link href='/activity'>Aktivitas</Nav.Link>
               <Nav.Link href='/submission'>Pengajuan</Nav.Link>
             </Nav>
           </Navbar.Collapse>

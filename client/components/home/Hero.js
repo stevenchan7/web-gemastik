@@ -22,11 +22,16 @@ export default function Hero() {
             <div className='position-relative'>
               <Image
                 className={styles.backHero}
-                src='/Background Hero.png'
+                src='/home/backgroundHero.png'
                 width={560}
                 height={405}
               />
-              <Image className={styles.fotoHero} src='/FotoHero.png' width={445} height={322} />
+              <Image
+                className={styles.fotoHero}
+                src='/home/fotoHero.png'
+                width={445}
+                height={322}
+              />
             </div>
           </Col>
         </Row>

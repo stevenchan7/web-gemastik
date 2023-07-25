@@ -1,13 +1,13 @@
 import Head from 'next/head';
 import styles from '@/styles/Layout.module.css';
 import Hero from '@/components/home/Hero';
-import Activity from '@/components/activitySection/Activity';
+import Activity from '@/components/activitySection/ActivityType';
 import Benefit from '@/components/home/SectionBenefit';
-import ForYou from '@/components/home/ForYou';
+import Recommendation from '@/components/home/RecommendSection';
 import Review from '@/components/home/SectionReview';
 import { Container, Image, Row, Col } from 'react-bootstrap';
 
-export default function Home({ activities4u, reviews }) {
+export default function Home({ recommendation, reviews }) {
   return (
     <>
       <Head>
@@ -20,7 +20,7 @@ export default function Home({ activities4u, reviews }) {
         <Hero />
         <Activity />
         <Benefit />
-        <ForYou activities={activities4u} />
+        <Recommendation activities={recommendation} />
         <Review reviews={reviews} />
       </main>
     </>
@@ -29,9 +29,9 @@ export default function Home({ activities4u, reviews }) {
 
 export async function getStaticProps() {
   try {
-    const { activities4u } = await import('@/data/home/activity4u.json');
+    const { recommendation } = await import('@/data/home/recommendation.json');
     const { reviews } = await import('@/data/home/review.json');
-    return { props: { activities4u, reviews } };
+    return { props: { recommendation, reviews } };
   } catch (err) {
     console.error(err);
   }

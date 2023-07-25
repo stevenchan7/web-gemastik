@@ -19,7 +19,7 @@ export default function ReviewCard({ rev }) {
       <div>
         <Card
           style={{
-            width: '20rem',
+            maxWidth: '20rem',
             height: '15rem',
             backgroundColor: '#FFF6EC',
             borderRadius: '12px',

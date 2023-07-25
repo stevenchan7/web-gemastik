@@ -15,7 +15,7 @@ export default function Benefit() {
             </p>
           </Col>
           <Col xs={8} lg={4}>
-            <Image src='/tujuanFU.png' width={100} height={100} />
+            <Image src='/home/tujuanFU.png' width={100} height={100} />
             <p className={styles.textBox}>Memberi Tujuan</p>
             <p className={styles.text2Box}>
               Kamu mungkin dapat menemukan tujuan dengan menjadi bagian dari sesuatu yang lebih
@@ -23,7 +23,7 @@ export default function Benefit() {
             </p>
           </Col>
           <Col xs={8} lg={4}>
-            <Image src='/relasiFU.png' width={100} height={100} />
+            <Image src='/home/relasiFU.png' width={100} height={100} />
             <p className={styles.textBox}>Bertemu teman baru</p>
             <p className={styles.text2Box}>
               Menjadi relawan adalah salah satu cara untukmu mendapatkan relasi yang lebih luas dan
@@ -31,7 +31,7 @@ export default function Benefit() {
             </p>
           </Col>
           <Col xs={8} lg={4}>
-            <Image src='/kepekaanFU.png' width={100} height={100} />
+            <Image src='/home/kepekaanFU.png' width={100} height={100} />
             <p className={styles.textBox}>Meningkatkan kepekaan</p>
             <p className={styles.text2Box}>
               Menjadi relawan di suatu komunitas meningkatkan kepekaan dan wawasan mu terhadap apa

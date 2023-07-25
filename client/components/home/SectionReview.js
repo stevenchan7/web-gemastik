@@ -9,15 +9,13 @@ export default function Review({ reviews }) {
       style={{ backgroundColor: '#faeade' }}
     >
       <Container>
-        <Row className='justify-content-center text-center '>
+        <Row className='justify-content-center text-center'>
           <Col xs={12}>
-            <h2 style={{ fontWeight: '800' }}>Aktivitas Untuk Kamu</h2>
-            <p style={{ fontWeight: '500' }}>
-              Berikut beberapa saran kegiatan yang dapat kamu lakukan
-            </p>
+            <h2 style={{ fontWeight: '800' }}>Kata Relawan</h2>
+            <p style={{ fontWeight: '500' }}>Kata-kata relawan tentang kami</p>
           </Col>
           {reviews.map((rev, index) => (
-            <Col key={index} xs={12} lg={4}>
+            <Col key={index} xs={12} lg={4} className='d-flex justify-content-center'>
               <ReviewCard rev={rev} />
             </Col>
           ))}
