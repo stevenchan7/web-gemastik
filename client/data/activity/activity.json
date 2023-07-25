@@ -8,7 +8,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 30,
+      "quota_max": 100
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 20,
+      "quota_max": 50
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 4,
@@ -38,7 +44,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 6,
@@ -58,7 +68,9 @@
       "activity": "membersihkan pantai",
       "name": "Kuta Beach Clean Up",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 7,
@@ -68,7 +80,9 @@
       "activity": "membersihkan pantai",
       "name": "Bersih Sanur",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 8,
@@ -78,7 +92,9 @@
       "activity": "membersihkan pantai",
       "name": "Bersih Sanur",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     },
     {
       "id": 9,
@@ -88,7 +104,9 @@
       "activity": "membersihkan pantai",
       "name": "Bersih Sanur",
       "location": "Pantai Kuta, Badung, Bali",
-      "community": "Pecinta Senja"
+      "community": "Pecinta Senja",
+      "quota_curr": 70,
+      "quota_max": 100
     }
   ]
 }

@@ -8,6 +8,34 @@
   margin-bottom: 10px;
 }
 
+.searchBar {
+  display: flex;
+}
+
+/* Pagination style  */
+.paginate {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.paginate li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #FAEADE;
+}
+
+.paginate a {
+  display: flex;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5)!important;
+}
+
 /* Pop up style  */
 .popup {
   position: fixed;
@@ -18,24 +46,38 @@
   left: 0;
 }
 
-.box {
-  position: relative;
-  width: 70%;
-  margin: 0 auto;
-  height: auto;
-  max-height: 70vh;
-  margin-top: calc(100vh - 85vh - 20px);
-  background: #FFF6EC;
-  border-radius: 12px;
-  padding: 1.5rem;
-  border: 1px solid #D6925C;
-}
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #FFF6EC;
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid #D6925C;
+    overflow-y: scroll;
+  } 
+    .box p {
+      font-weight: 500;
+    }
 
-.box p {
-  font-size: 20px;
-  font-weight: 500;
-}
+  .jadiRelawanButton {
+    background-color: #7AC241;
+    color: #FFF6EC;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+  }
+    .jadiRelawanButton:hover {
+      background-color: #7AC241;
+      opacity: 80%;
+    }
+    .jadiRelawanButton:active {
+      scale: 0.9;
+      background-color: #7AC241!important;
+    }
+  
 
-.paginate li {
-  display: inline-block;
-}
+

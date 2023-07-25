@@ -1,7 +1,7 @@
-import styles from '@/styles/Layout.module.css';
-import Image from 'next/image';
 import { Container, Row, Col } from 'react-bootstrap';
 import ActivityCardHome from './ActivityCardHome';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ForYou({ activities }) {
   return (
@@ -15,10 +15,19 @@ export default function ForYou({ activities }) {
             </p>
           </Col>
           {activities.map((activity, index) => (
-            <Col key={index} xs={12} lg={4} className='mb-3 mb-lg-0'>
+            <Col key={index} xs={12} lg={4} className='d-flex mb-3 mb-lg-0'>
               <ActivityCardHome activity={activity} />
             </Col>
           ))}
+          <Col className='mt-lg-3 text-center text-lg-end'>
+            <Link
+              href={'/activity'}
+              style={{ textDecoration: 'none', fontWeight: '700', color: '#579E1F' }}
+            >
+              Aktivitas Lainnya{' '}
+              <Image src='/home/next-icon.png' width={22} height={22} alt='next icon' />
+            </Link>
+          </Col>
         </Row>
       </Container>
     </Container>
